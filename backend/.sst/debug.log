@@ -1,0 +1,16 @@
+2025-05-20T21:10:13.709Z   +446ms [debug] Config loaded {"version":"2.43.7","cdkVersion":"2.142.1","constructsVersion":"10.3.0","config":{"name":"aircraft-utilization-backend","region":"us-east-1","stage":"neel","ssmPrefix":"/sst/aircraft-utilization-backend/neel/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":282,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"./stacks/ConfigStack","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1747775413269.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":194}},"bytes":376}}},"paths":{"config":"/Users/nbhattach/Documents/aircraft-utilization/backend/sst.config.ts","root":"/Users/nbhattach/Documents/aircraft-utilization/backend","out":"/Users/nbhattach/Documents/aircraft-utilization/backend/.sst","artifacts":"/Users/nbhattach/Documents/aircraft-utilization/backend/.sst/artifacts"}}
+2025-05-20T21:10:14.058Z   +349ms [debug] Using AWS profile 
+2025-05-20T21:10:14.059Z     +1ms [debug] Created AWS client SSMClient
+2025-05-20T21:10:14.445Z   +386ms [debug] Created AWS client IoTClient
+2025-05-20T21:10:14.445Z     +0ms [debug] Getting IoT endpoint
+2025-05-20T21:10:14.745Z   +300ms [debug] Using IoT endpoint: a3qtly6gpe8997-ats.iot.us-east-1.amazonaws.com
+2025-05-20T21:10:14.745Z     +0ms [debug] Initializing bootstrap context
+2025-05-20T21:10:14.746Z     +1ms [debug] Created AWS client CloudFormationClient
+2025-05-20T21:10:15.050Z   +304ms [debug] Loaded bootstrap status
+2025-05-20T21:10:15.050Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.3","bucket":"sstbootstrap-useast124d14e4b-18nonyjoe73ur"}
+2025-05-20T21:10:15.052Z     +2ms [debug] Created AWS client S3Client
+2025-05-20T21:10:15.091Z    +39ms [debug] Encoded iot message into 1 parts
+2025-05-20T21:10:15.460Z   +369ms [debug] IoT connected
+2025-05-20T21:10:16.021Z   +561ms [debug] IOT Published /sst/aircraft-utilization-backend/neel/events config.secret.updated
+2025-05-20T21:10:16.023Z     +2ms [debug] Fetching all metadata
+2025-05-20T21:10:16.406Z   +383ms [debug] Fetched metadata from 0 stacks
